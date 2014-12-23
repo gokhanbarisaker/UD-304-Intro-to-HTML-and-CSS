@@ -23,6 +23,7 @@ html {
 .row {
   display: -webkit-flex;
   display: flex;
+  flex-wrap: wrap;
   width: 100%;
 }
 

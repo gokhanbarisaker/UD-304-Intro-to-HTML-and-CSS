@@ -1,0 +1,59 @@
+/*Block*/
+
+.align-block-top {
+  margin-top: 0;
+  margin-bottom: auto;
+}
+
+.align-block-left {
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.align-block-right {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.align-block-bottom {
+  margin-top: auto;
+  margin-bottom: 0;
+}
+
+.align-block-center-vertical {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.align-block-center-horizontal {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/*Text*/
+
+.align-text-left {
+  text-align: left;
+}
+
+.align-text-right {
+  text-align: right;
+}
+
+.align-text-center {
+  text-align: center;
+}
+
+.align-text-justify {
+  text-align: justify;
+}
+
+.align-text-center-vertical {
+  text-align: left;
+}
+
+.align-text-center-horizontal {
+  margin-left: auto;
+  margin-right: auto;
+}

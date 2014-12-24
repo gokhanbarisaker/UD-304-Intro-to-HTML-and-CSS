@@ -1,7 +1,7 @@
 /*For grid debugging*/
-* {
+/** {
   border: 1px solid red !important
-}
+}*/
 
 /* apply a natural box layout model to all elements, but allowing components to change */
 html {
@@ -16,7 +16,7 @@ html {
 
 .grid {
   margin: 0 auto;
-  max-width: 1200px;
+  max-width: 960px;
   width: 100%;
 }
 
@@ -75,6 +75,21 @@ html {
   width: 100%;
 }
 
-h1 {
-  color: green;
+/*Media Queries*/
+/*@media only screen and (max-width: 800px) {
+  p {
+    background-color: blue;
+  }
+}*/
+
+
+
+
+* {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
 }
+
+/*p {
+  margin: 16px;
+}*/
